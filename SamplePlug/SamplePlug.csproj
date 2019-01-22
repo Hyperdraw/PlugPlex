@@ -59,6 +59,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy "%25cd%25\$(TargetFileName)" "%25cd%25\..\..\..\PlugPlex\$(OutDir)Plugs\$(TargetFileName)"</PostBuildEvent>
+    <PostBuildEvent>md %25cd%25\..\..\..\PlugPlex\$(OutDir)Plugs"
+copy "%25cd%25\$(TargetFileName)" "%25cd%25\..\..\..\PlugPlex\$(OutDir)Plugs\$(TargetFileName)"</PostBuildEvent>
   </PropertyGroup>
 </Project>
