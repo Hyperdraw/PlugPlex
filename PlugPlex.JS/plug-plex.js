@@ -7,6 +7,9 @@
             onopen();
         }
     }
+    this.ws.onerror = function () {
+        console.error("Failed to connect to plug. Maybe there is no plug by that name.");
+    }
     this.callback = function () { };
     this.ws.onmessage = function (e) {
         This.callback(JSON.parse(e.data));
