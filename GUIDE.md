@@ -25,6 +25,8 @@ public override string name {
 }
 ```
 
+Don't worry about the schemas error. We'll deal with that later.'
+
 ## Parameters in Plugs
 
 Parameters are passed to functions in plugs with *schemas*. A schema is a class with
@@ -58,6 +60,27 @@ public class AddSchema{
 	public int B;
 }
 ```
+
+## Defining the Schemas
+
+Once you have functions and the schemas they need, you must declare a Dictionary<string, Type> property to tell PlugPlex about the schemas.
+Each entry in the dictionary sould have a `string` key representing the name of a function, and a `Type` value representing the `typeof` the schema the
+function takes as a parameter. For example, a schema dictionary for the	`Print` and `Add` functions above would look like this:
+
+```C#
+public Dictionary<string, Type> schemas {
+	get {
+		Dictionary<string, Type> _schemas
+
+		_schemas.Add("Print", typeof(PrintSchema));
+		_schemas.Add("Add", typeof(AddSchema));
+
+		return _schemas;
+	}
+}
+```
+
+You must declare the schemas for every function you intend to call from javascript.
 
 ## Using the Plug
 
