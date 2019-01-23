@@ -6,6 +6,9 @@ most modern browsers, but sometimes it is necessary to bring platform native fea
 into javascript for web pages. With PlugPlex, you can install .NET assemblies as web plugins
 that are shared between browsers and bring powerful features to the internet.
 
+[**Download (Zip)**](https://github.com/Hyperdraw/PlugPlex/releases/download/v1.0.0/PlugPlex.zip)
+[**Download (Installer)**](https://github.com/Hyperdraw/PlugPlex/releases/download/v1.0.0/PlugPlex-1.0.0-Setup.exe)
+
 ## Building
 
 To build PlugPlex, you will need Visual Studio 2017. Simply clone or download this repository
