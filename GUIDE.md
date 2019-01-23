@@ -70,7 +70,7 @@ and find the `Plugs` folder. put your plug DLL there. Now start PlugPlex, and yo
 To call a plug from javascript, you must first establish a connection to the plug. First, include plug-plex.js:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/Hyperdraw/PlugPlex@1.0.0/PlugPlex.JS/plug-plex.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Hyperdraw/PlugPlex@1.0.1/PlugPlex.JS/plug-plex.js"></script>
 ```
 
 Now, create a new `Plug` object, passing the name of the plug. This should be the same as the `name` property of the plug class.
