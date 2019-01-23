@@ -17,4 +17,4 @@ and build the solution in Visual Studio. The files will be output to PlugPlex/bi
 
 ## Contributing
 
-If you want to help develop the PlugPlex project, go [here](https://hyperdraw.github.io/PlugPlex/CONTRIBUTING.md).
+If you want to help develop the PlugPlex project, go [here](https://hyperdraw.github.io/PlugPlex/CONTRIBUTING).
