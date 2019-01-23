@@ -14,6 +14,7 @@ namespace PlugPlex
     {
         public static WebSocketServer server;
         private static List<Plug> plugs = new List<Plug>();
+        private static List<string> plugNames = new List<string>();
 
         static void Main(string[] args)
         {
@@ -65,8 +66,18 @@ namespace PlugPlex
                     {
                         if (type.IsSubclassOf(typeof(Plug)))
                         {
-                            plugs.Add((Plug)Activator.CreateInstance(type));
-                            Console.WriteLine("Loaded plug " + type.Name);
+                            Plug plug = (Plug)Activator.CreateInstance(type);
+
+                            if (!plugNames.Contains(plug.name))
+                            {
+                                plugs.Add(plug);
+                                Console.WriteLine("Loaded plug " + type.Name);
+                                plugNames.Add(plug.name);
+                            }
+                            else
+                            {
+                                Console.WriteLine("Error: ambiguous plug name - " + plug.name);
+                            }
                         }
                     }
                 }
