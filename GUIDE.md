@@ -108,6 +108,10 @@ async function plugLoadedCallback(){
 }
 ```
 
+
+**Tip:**
+*You can pass on optional third parameter the the Plug contructor, which is a callback called if the connection failed, such as if the user does not have that plug, or doesn't have PlugPlex running*
+
 Now you can create wrapper functions:
 
 ```javascript
