@@ -7,6 +7,7 @@ into javascript for web pages. With PlugPlex, you can install .NET assemblies as
 that are shared between browsers and bring powerful features to the internet.
 
 [**Download (Zip)**](https://github.com/Hyperdraw/PlugPlex/releases/download/v1.0.0/PlugPlex.zip)
+
 [**Download (Installer)**](https://github.com/Hyperdraw/PlugPlex/releases/download/v1.0.0/PlugPlex-1.0.0-Setup.exe)
 
 ## Building
