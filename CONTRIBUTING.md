@@ -1,5 +1,5 @@
 ---
-title: Contributing - PlugPlex
+title: Contributing
 ---
 
 # Contributing to PlugPlex
@@ -25,6 +25,8 @@ Developers would be a lot happier if they knew what they were doing. There is al
 ## Make Plugs
 
 Although this isn't directly contributing to PlugPlex, it helps extend the functionality of browsers, which is out goal.
+To learn how to make plugs, check out the [sample plug](https://github.com/Hyperdraw/PlugPlex/blob/master/SamplePlug), and
+read the [plug development guide](https://hyperdraw.github.io/PlugPlex/GUIDE).
 
 # And when you're done...
 

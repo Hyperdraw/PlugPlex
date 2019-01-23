@@ -15,6 +15,10 @@ that are shared between browsers and bring powerful features to the internet.
 To build PlugPlex, you will need Visual Studio 2017. Simply clone or download this repository
 and build the solution in Visual Studio. The files will be output to PlugPlex/bin.
 
+## Making Plugs
+
+To learn how to make plugs, check out the [sample plug](https://github.com/Hyperdraw/PlugPlex/blob/master/SamplePlug), and read the [plug development guide](https://hyperdraw.github.io/PlugPlex/GUIDE).
+
 ## Contributing
 
 If you want to help develop the PlugPlex project, go [here](https://hyperdraw.github.io/PlugPlex/CONTRIBUTING).
