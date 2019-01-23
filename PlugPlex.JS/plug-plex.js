@@ -4,10 +4,10 @@
     this.active = false;
     this.ws = new WebSocket("ws://localhost:23524/" + this.name);
     this.ws.onopen = function () {
+        This.active = true;
         if (onopen) {
             onopen();
         }
-        This.active = true;
     }
     this.ws.onerror = function () {
         if (onerror) {
