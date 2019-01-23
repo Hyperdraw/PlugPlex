@@ -1,3 +1,7 @@
+---
+title: Contributing - PlugPlex
+---
+
 # Contributing to PlugPlex
 
 So you want to contribute to the development of the PlugPlex project? Great.
